@@ -1,0 +1,3 @@
+str = input('')
+M = str.split(' ')
+print(M[::-1])
