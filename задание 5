@@ -1,0 +1,9 @@
+q = input()
+
+x = input()
+y = input()
+q.lower()
+
+x1 = q.count(x)
+y1 = q.count(y)
+print(f'x: {x1}, y: {y1}.')
