@@ -1,0 +1,6 @@
+txt = input()
+n1 = txt.find('(')
+n2 = txt.find(')')
+n3 = txt.rfind('(')
+n4 = txt.rfind(')')
+print(txt[n1+1:n2], txt[n3+1: n4])
