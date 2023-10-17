@@ -1,0 +1,7 @@
+txt = input()
+x = input()
+
+for i in txt:
+    if i == x:
+        txt1 = txt.replace(i, x*2)
+print(txt1)
