@@ -1,0 +1,5 @@
+txt = input()
+number = [int(x) for x in txt.split()]
+n = int(input())
+rez = [x ** n for x in number]
+print(rez)
